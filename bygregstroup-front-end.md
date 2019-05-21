@@ -22,7 +22,7 @@ Before diving into specifics, it's important to understand the basic building bl
 The bulk of a front end application is user interface code, which runs in the web browser.  As browsers have become more powerful, this area has expanded and grown in complexity.  These concepts and building blocks can be used to build a modern front end application.
 * JavaScript Frameworks - define the entire design of a front end application design.  With the rise of [Single Page Apps](https://blog.angular-university.io/why-a-single-page-application-what-are-the-benefits-what-is-a-spa/), these have become more popular.  Although not required, frameworks can help create production quality apps more quickly, and can help front end dev teams work together more efficiently.
   * Common features
-    * Design patterns - Encourage developers to follow patterns such as Model-View-Controller (MVC), Inversion-of-control (IOC), [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/) etc.
+    * Design patterns - Encourage developers to follow patterns such as Model-View-Controller (MVC), Inversion-of-control (IOC), [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/) (push, render, pre-cache, lazy-load) etc.
     * URL routing - Respond to changes in the browser address bar.  Instead of loading a new file as in traditional multi-page web sites, different action can be taken such as making an API call, or loading a UI component onto the page.
     * Data binding - Display data from the model in the UI view.  Two-way data binding means that user changes to data in the UI are also persisted to the model.
     * State management - Store and retrieve UI state from various UI components.
